@@ -1,0 +1,43 @@
+.aboutSection {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 1s ease;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #927878, #ebedee); /* elegant background */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutSection.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.aboutCard {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  background-image: url("about.jpeg");
+  
+}
+
+.aboutCard h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  color:rgb(197, 138, 60);
+}
+
+.aboutCard p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: rgb(2, 248, 141);
+}

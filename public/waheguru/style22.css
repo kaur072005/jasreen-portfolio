@@ -1,0 +1,26 @@
+div{
+    height:400px;
+    width:400px;
+    border:solid;
+    background-color:rgb(255, 127, 238);
+    text-align: center;
+    transition-property: all;
+    transition-duration:1s;
+    transition-timing-function: steps(10);
+    transition-delay: 0s;
+     transform:rotate(45deg);
+    transform:scale(1,1);
+    transform:skew(45deg);
+    
+
+}
+
+div:hover{
+
+   background-color:greenyellow;
+    color: blue;
+    font-size: 20px;
+    transform:translate(50px,100px);
+    
+    
+}

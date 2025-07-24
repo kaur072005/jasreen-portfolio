@@ -1,0 +1,90 @@
+.contactSection {
+  min-height: 100vh;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #f3ec78, #af4261, #74ebd5, #acb6e5);
+  background-size: 400% 400%;
+  animation: bgSlide 15s ease infinite;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease;
+  text-align: center;
+}
+
+.contactSection.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes bgSlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animatedTitle {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  animation: slideIn 3s infinite alternate;
+  margin-bottom: 1rem;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.subText {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactLink {
+  color: rgb(30, 7, 244);
+  font-size: 1.1rem;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.7rem;
+  transition: 0.3s ease;
+  animation: pulse 2.5s infinite;
+}
+
+.contactLink:hover {
+  background-color: white;
+  color: #222;
+  transform: scale(1.05);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(255,255,255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}

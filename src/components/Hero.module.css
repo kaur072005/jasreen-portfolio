@@ -1,0 +1,91 @@
+.hero {
+  height: 100vh;
+  background: url('/hero.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  padding: 2rem;
+  border-radius: 20px;
+  animation: fadeIn 2s ease-in;
+  max-width: 90%;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  animation: typing 3s steps(30), blink 0.75s step-end infinite;
+  animation: fadeInUp 2s ease-in-out infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+}
+
+.subheading {
+  margin-top: 1rem;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  animation: fadeInUp 2s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #ff4081;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 64, 129, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+   
+}
+
+
+.navbar{
+    border:5px solid pink;
+    border-bottom: 5px solid transparent;
+    height:200px;
+    background-color: rgb(70, 83, 121);
+    display:flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    
+    
+}
+.logo{
+    height:190px;
+    width:170px;
+    border:2px solid transparent;
+    background-image: url("Kurukshetra_University_logo.png");
+    background-size: cover;
+}
+.title{
+
+    
+    padding:2px;
+    margin-right: 20px;
+    font-size: 68px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: rgb(54, 43, 65);
+
+}
+.study{
+
+    height: 180px;
+    width: 190px;
+    background-image: url("study.jpg");
+    background-size: cover;
+    background-color: rgb(231, 218, 201);
+}
+p{
+    color:rgb(170, 146, 146);
+    text-decoration: none;
+}
+
+.abt{
+    border:5px solid transparent;
+    background-color:rgb(124, 110, 138);
+    background-size: cover;
+    text-align: center;
+}
+.act{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+   }
+.menu{
+    border:3px solid transparent;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(124, 110, 138);
+    align-items: center;
+    margin-left:0px;
+    font-weight: bold;
+    
+}
+.box1{
+    height: 25px;
+    width:80px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+}
+.box2{
+    height: 25px;
+    width:100px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+   
+}
+
+.box3{
+    height: 25px;
+    width:100px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+   
+}
+
+.box4{
+    height: 25px;
+    width:100px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+   
+}
+.box5{
+    height: 35px;
+    width:160px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+}
+
+.box6{
+    height: 40px;
+    width:100px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+   
+}
+.box7{
+    height: 40px;
+    width:160px;
+    background-color: rgb(255, 196, 232);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    align-items: center;
+
+}
+
+.hero{
+    height:85px;
+    background-color: cadetblue;
+    color:black;
+    padding-top:40px;
+}
+p{
+    padding-top: 1rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-image: url("baxkground.jpg");
+    background-size: cover;
+}
+.image-slider{
+    height:500px;
+    width:700px;
+    background-color: antiquewhite;
+    border:5px solid grey;
+    margin:2rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    animation: spin 20s infinite linear ;
+    background-image: url("dep.png");
+    background-size: cover;
+    
+
+}
+
+@keyframes spin{
+    0%{ background-image: url("img.jpg");
+    background-size: cover;}
+    33%{background-image: url("img2.jpg");
+        background-size: cover;}
+    55%{background-image: url("lib.jpg");
+        background-size: cover;}
+    60.55%{background-image: url(img3.jpg);
+        background-size: cover;}
+    71%{background-image: url("dep.png");
+        background-size: cover;}
+    100%{background-image: url("study.webp");
+        background-size: cover;}
+
+
+}
