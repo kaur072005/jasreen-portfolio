@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.links}>
-        <a href="mailto:jasreen@example.com" target="_blank" rel="noopener noreferrer">📧 jasreen@example.com</a>
+        <a href="mailto:jasreenk033@gmail.com" target="_blank" rel="noopener noreferrer">📧 jasreenk033@gmail.com</a>
         <a href="https://linkedin.com/in/jasreen-kaur" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
       </div>
       <div className={styles.copy}>
