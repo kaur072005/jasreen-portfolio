@@ -39,6 +39,9 @@ const Projects = () => {
             <a href="/waheguru/index.html" className={styles.btn} target="_blank" rel="noopener noreferrer">
               View Project
             </a>
+            <a  href="https://kaur072005.github.io/tic_tac_toe/" className={styles.btn} target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
             </div>
           </div>
 
